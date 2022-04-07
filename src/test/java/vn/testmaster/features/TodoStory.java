@@ -39,7 +39,6 @@ public class TodoStory {
     }
 
     @Test
-    @Ignore
     public void Should_see_inputted_task_on_list_of_todo_task() {
         anna.wasAbleTo(Open.browserOn().the(TodoPage));
         anna.attemptsTo(
